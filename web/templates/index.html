@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cilt Bakım Uygulaması</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="phone">
+
+    <h1>CİLT BAKIM UYGULAMASI</h1>
+
+    <img src="{{ url_for('static', filename='products.png') }}" class="product-img">
+
+    <p class="question">
+        Cildiniz ile ilgili belirtmek istediğiniz <br>
+        ek bir özellik veya şikayet var mı?
+    </p>
+
+    <form method="post">
+        <div class="input-wrapper">
+            <span class="heart">❤</span>
+            <input type="text" name="text" placeholder="metin giriniz">
+        </div>
+
+        <button type="submit" class="arrow-btn">➜</button>
+    </form>
+
+    {% if prediction %}
+        <div class="result">
+            Tahmin Edilen Cilt Tipi: <b>{{ prediction }}</b>
+        </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>

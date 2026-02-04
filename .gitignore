@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+desktop.ini
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+
+# Jupyter (eğer ileride eklenirse)
+.ipynb_checkpoints/

@@ -1,0 +1,71 @@
+body {
+    background: #f6f6f6;
+    font-family: Arial, sans-serif;
+}
+
+.phone {
+    width: 360px;
+    background: white;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-img {
+    width: 160px;
+    margin: 10px auto;
+}
+
+.question {
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.input-wrapper {
+    position: relative;
+    margin-top: 15px;
+}
+
+.input-wrapper input {
+    width: 90%;
+    padding: 12px 12px 12px 40px;
+    border-radius: 25px;
+    border: 2px solid #f4a6b8;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.heart {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f28ca8;
+    font-size: 18px;
+}
+
+.arrow-btn {
+    margin-top: 15px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #f28ca8;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    background: #ffe6ee;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
